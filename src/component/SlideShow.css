@@ -1,0 +1,44 @@
+.slider {
+  width: 1000px;
+  height: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  text-align: center;
+  overflow: hidden;
+  display: flex;
+}
+
+.image-container {
+  color: aliceblue;
+  width: 150px;
+  background-color: rgb(17, 154, 233);
+  height: 150px;
+  border-radius: 50%;
+  clear: both;
+  position: relative;
+  -webkit-transition: left 2s;
+  -moz-transition: left 2s;
+  -o-transition: left 2s;
+  transition: left 2s;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media only screen and (max-width: 1080px) {
+  .image-container {
+    width: 50px;
+    height: 50px;
+  }
+  h1 {
+    font-size: 10px;
+  }
+}
+.image-container:hover {
+  background-color: rgb(6, 71, 212);
+}
+.slide {
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
